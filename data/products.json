@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "name": "White Slim-Fit Native",
+    "image": "images/products/01.jpg",
+    "categories": ["new-arrivals", "men"],
+    "price": 12500
+  },
+  {
+    "id": 2,
+    "name": "Black Thread Native",
+    "image": "images/products/02.jpg",
+    "categories": ["new-arrivals", "men"],
+    "price": 38000
+  },
+  {
+    "id": 3,
+    "name": "Vintage Brown Ankara Dress",
+    "image": "images/products/03.jpg",
+    "categories": ["men", "sale"],
+    "price": 9500
+  },
+  {
+    "id": 4,
+    "name": "Office-Ready women's Suit",
+    "image": "images/products/04.jpg",
+    "categories": ["women", "new-arrivals"],
+    "price": 27000
+  },
+  {
+    "id": 5,
+    "name": "Classic White Linen Set",
+    "image": "images/products/05.jpg",
+    "categories": ["women"],
+    "price": 18500
+  },
+  {
+    "id": 6,
+    "name": "Children's Ankara Short Set",
+    "image": "images/products/06.jpg",
+    "categories": ["men"],
+    "price": 6500
+  },
+  {
+    "id": 7,
+    "name": "Oversized Denim Jacket",
+    "image": "images/products/07.jpg",
+    "categories": ["men",  "sale"],
+    "price": 15000
+  },
+  {
+    "id": 8,
+    "name": "Girls' Party Dress",
+    "image": "images/products/08.jpg",
+    "categories": ["women", "new-arrivals"],
+    "price": 8500
+  },
+  {
+    "id": 9,
+    "name": "Striped Agbada Set",
+    "image": "images/products/09.jpg",
+    "categories": ["children"],
+    "price": 55000
+  },
+  {
+    "id": 10,
+    "name": "Embroidered Crop Top",
+    "image": "images/products/10.jpg",
+    "categories": ["women", "sale"],
+    "price": 7200
+  },
+  {
+    "id": 11,
+    "name": "Boys' Traditional Suit",
+    "image": "images/products/11.jpg",
+    "categories": ["women"],
+    "price": 9800
+  },
+  {
+    "id": 12,
+    "name": "Boubou Senator Set",
+    "image": "images/products/12.jpg",
+    "categories": ["men", "new-arrivals"],
+    "price": 32000
+  },
+  {
+    "id": 13,
+    "name": "Silk Wrap Skirt",
+    "image": "images/products/13.jpg",
+    "categories": ["children", "new-arrivals"],
+    "price": 11500
+  },
+  {
+    "id": 14,
+    "name": "Children's Denim Overalls",
+    "image": "images/products/14.jpg",
+    "categories": ["men", "sale"],
+    "price": 5500
+  },
+  {
+    "id": 15,
+    "name": "Tie-Dye Lounge Set",
+    "image": "images/products/15.jpg",
+    "categories": ["children", "new-arrivals"],
+    "price": 14000
+  },
+  {
+    "id": 16,
+    "name": "Men's Waistcoat & Trousers",
+    "image": "images/products/16.jpg",
+    "categories": ["women", "sale"],
+    "price": 21000
+  },
+  {
+    "id": 17,
+    "name": "Lace Aso-Ebi Blouse",
+    "image": "images/products/17.jpg",
+    "categories": ["men", "sale"],
+    "price": 8000
+  },
+  {
+    "id": 18,
+    "name": "Girls' Lace Sunday Dress",
+    "image": "images/products/18.jpg",
+    "categories": ["women"],
+    "price": 7600
+  },
+  {
+    "id": 19,
+    "name": "Polo Neck Knit Top",
+    "image": "images/products/19.jpg",
+    "categories": ["men", "new-arrivals"],
+    "price": 10000
+  },
+  {
+    "id": 20,
+    "name": "Vintage Leather Belt",
+    "image": "images/products/20.jpg",
+    "categories": [ "women", "sale"],
+    "price": 3500
+  },
+  {
+    "id": 21,
+    "name": "Chiffon Palazzo Trousers",
+    "image": "images/products/21.jpg",
+    "categories": ["men"],
+    "price": 13000
+  },
+  {
+    "id": 22,
+    "name": "Batik Print Bucket Hat",
+    "image": "images/products/22.jpg",
+    "categories": [ "men", "new-arrivals"],
+    "price": 4500
+  },
+  {
+    "id": 23,
+    "name": "Embellished Evening Gown",
+    "image": "images/products/23.jpg",
+    "categories": ["children"],
+    "price": 75000
+  },
+  {
+    "id": 24,
+    "name": "Boys' Ankara Shorts",
+    "image": "images/products/24.jpg",
+    "categories": ["children","women", "new-arrivals"],
+    "price": 4000
+  },
+  {
+    "id": 25,
+    "name": "Double-Breasted Trench Coat",
+    "image": "images/products/25.jpg",
+    "categories": ["women", "sale"],
+    "price": 42000
+  },
+  {
+    "id": 26,
+    "name": "Peplum Ankara Top",
+    "image": "images/products/26.jpg",
+    "categories": ["men"],
+    "price": 9000
+  },
+  {
+    "id": 27,
+    "name": "Girls' Pinafore Dress",
+    "image": "images/products/27.jpg",
+    "categories": ["men"],
+    "price": 6200
+  },
+  {
+    "id": 28,
+    "name": "Men's Linen Joggers",
+    "image": "images/products/28.jpg",
+    "categories": ["women", "new-arrivals"],
+    "price": 11000
+  },
+  {
+    "id": 29,
+    "name": "Off-Shoulder Blouse",
+    "image": "images/products/29.jpg",
+    "categories": ["men", "sale"],
+    "price": 7500
+  },
+  {
+    "id": 30,
+    "name": "Beaded Choker Necklace",
+    "image": "images/products/30.jpg",
+    "categories": ["women", "new-arrivals"],
+    "price": 3200
+  },
+  {
+    "id": 31,
+    "name": "Traditional Cap (Fila)",
+    "image": "images/products/31.jpg",
+    "categories": ["children", "sale"],
+    "price": 5000
+  },
+  {
+    "id": 32,
+    "name": "Kids' Tie-Dye Tee",
+    "image": "images/products/32.jpg",
+    "categories": ["women"],
+    "price": 3000
+  },
+  {
+    "id": 33,
+    "name": "Printed Maxi Skirt",
+    "image": "images/products/33.jpg",
+    "categories": ["women", "sale"],
+    "price": 8800
+  },
+  {
+    "id": 34,
+    "name": "Structured Work Blazer",
+    "image": "images/products/34.jpg",
+    "categories": ["men", "new-arrivals"],
+    "price": 29000
+  },
+  {
+    "id": 35,
+    "name": "Men's Casual Cap",
+    "image": "images/products/35.jpg",
+    "categories": ["men", "sale"],
+    "price": 2800
+  },
+  {
+    "id": 36,
+    "name": "Smocked Sundress",
+    "image": "images/products/36.jpg",
+    "categories": [ "children"],
+    "price": 8000
+  },
+  {
+    "id": 37,
+    "name": "Kente Bow-Tie Set",
+    "image": "images/products/37.jpg",
+    "categories": ["children"],
+    "price": 7200
+  },
+  {
+    "id": 38,
+    "name": "Girls' Headband Set",
+    "image": "images/products/38.jpg",
+    "categories": ["children"],
+    "price": 1800
+  },
+  {
+    "id": 39,
+    "name": "Wax Print Tote Bag",
+    "image": "images/products/39.jpg",
+    "categories": ["children", "new-arrivals"],
+    "price": 6800
+  },
+  {
+    "id": 40,
+    "name": "Men's Jogger Suit",
+    "image": "images/products/40.jpg",
+    "categories": ["men", "sale"],
+    "price": 22000
+  },
+  {
+    "id": 41,
+    "name": "Vintage Wrap Dress",
+    "image": "images/products/41.jpg",
+    "categories": ["women"],
+    "price": 16500
+  },
+  {
+    "id": 42,
+    "name": "Boy's First Communion Suit",
+    "image": "images/products/42.jpg",
+    "categories": ["women", "new-arrivals"],
+    "price": 18000
+  },
+  {
+    "id": 43,
+    "name": "Woven Kaftan Robe",
+    "image": "images/products/43.jpg",
+    "categories": ["children", "sale"],
+    "price": 24000
+  },
+  {
+    "id": 44,
+    "name": "Crop Denim Jacket",
+    "image": "images/products/44.jpg",
+    "categories": ["women", "sale"],
+    "price": 13500
+  },
+  {
+    "id": 45,
+    "name": "Printed Scarf",
+    "image": "images/products/45.jpg",
+    "categories": [ "men"],
+    "price": 4500
+  },
+  {
+    "id": 46,
+    "name": "Kids' Aso-Ebi Set",
+    "image": "images/products/46.jpg",
+    "categories": ["women"],
+    "price": 9500
+  },
+  {
+    "id": 47,
+    "name": "Luxury Beaded Gele",
+    "image": "images/products/47.jpg",
+    "categories": ["men", "new-arrivals"],
+    "price": 12000
+  },
+  {
+    "id": 48,
+    "name": "Men's Nehru Collar Shirt",
+    "image": "images/products/48.jpg",
+    "categories": ["women", "new-arrivals"],
+    "price": 15000
+  },
+  {
+    "id": 49,
+    "name": "Floral Midi Dress",
+    "image": "images/products/49.jpg",
+    "categories": ["women", "sale"],
+    "price": 9000
+  },
+  {
+    "id": 50,
+    "name": "Kids' Festival Costume",
+    "image": "images/products/50.jpg",
+    "categories": ["women", "new-arrivals"],
+    "price": 11000
+  }
+]

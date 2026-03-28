@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Board of Trustees | Okirika Fashion Store</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/marquee.css" />
+  <link rel="stylesheet" href="css/slider.css" />
+  <link rel="stylesheet" href="css/board.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="icon" type="image/png" href="images/logo1.png">
+
+</head>
+
+<body>
+  <header class="site-nav" role="banner">
+    <div class="container nav__inner">
+
+      <a href="index.html" class="nav__logo" aria-label="Okirika Home">
+        <img src="images/logo1.png" alt="Okirika Logo" class="nav__logo-img" />
+        <div class="nav__logo-text">
+          <span class="nav__logo-script">Okirika</span>
+          <span class="nav__logo-sub">Fashion Store</span>
+        </div>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary navigation">
+        <ul role="list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="products.html" class="nav__link">Products</a></li>
+          <li><a href="events.html" class="nav__link">Events</a></li>
+          <li><a href="board.html" class="nav__link">Board of Trustees</a></li>
+          <li><a href="inquiries.html" class="nav__link">Inquiries &amp; Appointments</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <div class="home-marquee-banner" aria-label="Announcement banner">
+    <div class="marquee-inner">
+      <span>&#9733; New Season Arrivals</span>
+      <span>&#10022; Free Delivery Over &#8358;50,000</span>
+      <span>&#9733; Exclusive Members Discount</span>
+      <span>&#9733; New Season Arrivals</span>
+      <span>&#10022; Free Delivery Over &#8358;50,000</span>
+      <span>&#9733; Exclusive Members Discount</span>
+    </div>
+  </div>
+
+  <main class="board-page">
+    <div class="container">
+
+      <section class="stacked-hero" aria-label="Hero">
+
+        <div class="stacked-hero__images">
+
+          <div class="stacked-hero__img stacked-hero__img--left">
+            <img src="https://picsum.photos/500/600?random=71" alt="Collection 1" />
+          </div>
+
+          <div class="stacked-hero__img stacked-hero__img--center">
+            <img src="https://picsum.photos/500/650?random=72" alt="Collection 2" />
+          </div>
+
+          <div class="stacked-hero__img stacked-hero__img--right">
+            <img src="https://picsum.photos/500/620?random=73" alt="Collection 3" />
+          </div>
+
+        </div>
+
+        <div class="stacked-hero__content">
+          <h1 class="stacked-hero__title">Board of Trustees</h1>
+          <p class="stacked-hero__text">
+            Discover curated pieces designed to express confidence, culture,
+            and contemporary elegance — crafted for those who lead.
+          </p>
+        </div>
+
+      </section>
+
+
+      <hr class="gold-divider" />
+      <section class="members-section">
+
+        <div class="members-header">
+          <h2 class="members-title">Board Members</h2>
+          <div class="members-counter">
+            <span id="current-member">01</span>
+            <span>/</span>
+            <span id="total-members">03</span>
+          </div>
+        </div>
+        <hr class="gold-divider" />
+
+        <br>
+        <br>
+        <div class="members-layout">
+
+          <div class="members-wrapper" id="members-wrapper">
+
+            <article class="member-card active" data-index="0" data-name="Dr. Ada Okafor" data-role="Chairwoman"
+              data-desc="Founder of Okirika with over 25 years of leadership in African fashion innovation and community empowerment.">
+              <div class="member-image">
+                <img src="https://picsum.photos/400/500?random=80">
+              </div>
+              <div class="member-hover-name">Dr. Ada Okafor</div>
+            </article>
+
+            <article class="member-card" data-index="1" data-name="Emeka Briggs" data-role="Creative Director"
+              data-desc="Visionary stylist merging traditional craftsmanship with bold contemporary silhouettes.">
+              <div class="member-image">
+                <img src="https://picsum.photos/400/500?random=81">
+              </div>
+              <div class="member-hover-name">Emeka Briggs</div>
+            </article>
+
+            <article class="member-card" data-index="2" data-name="Ngozi Adeleke" data-role="Operations Lead"
+              data-desc="Oversees brand growth, logistics, and strategic partnerships across West Africa.">
+              <div class="member-image">
+                <img src="https://picsum.photos/400/500?random=82">
+              </div>
+              <div class="member-hover-name">Ngozi Adeleke</div>
+            </article>
+
+          </div>
+
+          <div class="member-details" id="member-details">
+            <h3 class="details-name">Dr. Ada Okafor</h3>
+            <p class="details-role">Chairwoman</p>
+            <p class="details-desc">
+              Founder of Okirika with over 25 years of leadership in African fashion innovation and community
+              empowerment.
+            </p>
+          </div>
+
+        </div>
+
+      </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p class="nav__logo-script footer__logo-text">Okirika</p>
+        <p class="footer__tagline">Premium curated fashion. Timeless style.</p>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Navigate</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="board.html">Board of Trustees</a></li>
+          <li><a href="inquiries.html">Inquiries</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Contact</h3>
+        <p>hello@okirika.com</p>
+        <p>+234 800 000 0000</p>
+      </div>
+    </div>
+    <p class="footer__copy container">� <span id="footer-year"></span> Okirika Fashion Store. All rights reserved.</p>
+  </footer>
+
+  <script src="js/slider.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/board.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

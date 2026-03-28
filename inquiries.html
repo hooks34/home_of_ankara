@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inquiries & Appointments | Okirika Fashion Store</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/marquee.css" />
+  <link rel="stylesheet" href="css/slider.css" />
+  <link rel="stylesheet" href="css/inquiries.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="icon" type="image/png" href="images/logo1.png">
+</head>
+
+<body>
+  <header class="site-nav" role="banner">
+    <div class="container nav__inner">
+  
+      <a href="index.html" class="nav__logo" aria-label="Okirika Home">
+        <img src="images/logo1.png" alt="Okirika Logo" class="nav__logo-img" />
+        <div class="nav__logo-text">
+          <span class="nav__logo-script">Okirika</span>
+          <span class="nav__logo-sub">Fashion Store</span>
+        </div>
+      </a>
+  
+      <nav class="nav__links" aria-label="Primary navigation">
+        <ul role="list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="products.html" class="nav__link">Products</a></li>
+          <li><a href="events.html" class="nav__link">Events</a></li>
+          <li><a href="board.html" class="nav__link">Board of Trustees</a></li>
+          <li><a href="inquiries.html" class="nav__link">Inquiries &amp; Appointments</a></li>
+        </ul>
+      </nav>
+  
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+  
+    </div>
+  </header>
+
+
+  <div class="home-marquee-banner" aria-label="Announcement banner">
+    <div class="marquee-inner">
+      <span>&#9733; New Season Arrivals</span>
+      <span>&#10022; Free Delivery Over &#8358;50,000</span>
+      <span>&#9733; Exclusive Members Discount</span>
+      <span>&#9733; New Season Arrivals</span>
+      <span>&#10022; Free Delivery Over &#8358;50,000</span>
+      <span>&#9733; Exclusive Members Discount</span>
+    </div>
+  </div>
+
+  <main class="inquiries-page">
+    <div class="container">
+      <header class="page-header" style="margin-bottom: var(--space-12);">
+        <h1 class="section-heading">Inquiries &amp; Appointments</h1>
+        <p class="text-cream" style="max-width: 60ch; font-size: var(--text-lg);">Book a personal styling appointment or
+          send us a general inquiry. Our team will get back to you within 24 hours.</p>
+      </header>
+
+      <section class="appointment-section" aria-labelledby="appt-heading">
+        <h2 id="appt-heading" class="section-heading">Book an Appointment</h2>
+
+        <div class="appointment-grid">
+          <div class="calendar-widget">
+            <div class="calendar-header">
+              <button class="cal-nav cal-nav--prev" aria-label="Previous month" type="button">&larr;</button>
+              <h3 class="cal-month-label" id="cal-month-label">March 2025</h3>
+              <button class="cal-nav cal-nav--next" aria-label="Next month" type="button">&rarr;</button>
+            </div>
+
+            <div class="cal-weekdays" aria-hidden="true">
+              <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+            </div>
+            <div class="cal-dates" id="cal-dates" role="grid" aria-label="Select appointment date"></div>
+
+            <button class="btn btn--primary" id="appt-submit"
+              style="width: 100%; margin-top: var(--space-6);display: flex;justify-content: center; align-items: center;"
+              type="button">Submit Booking</button>
+          </div>
+
+          <div class="appointment-right">
+            <div class="time-slots">
+              <h3 class="time-slots__heading text-gold">Select a Time</h3>
+              <div class="time-slots__grid" id="time-slots-grid">
+                <button class="time-slot" data-time="10:00 AM" type="button">10:00 AM</button>
+                <button class="time-slot" data-time="11:00 AM" type="button">11:00 AM</button>
+                <button class="time-slot" data-time="12:00 PM" type="button">12:00 PM</button>
+                <button class="time-slot" data-time="1:00 PM" type="button">1:00 PM</button>
+                <button class="time-slot" data-time="2:00 PM" type="button">2:00 PM</button>
+                <button class="time-slot" data-time="3:00 PM" type="button">3:00 PM</button>
+                <button class="time-slot" data-time="4:00 PM" type="button">4:00 PM</button>
+                <button class="time-slot" data-time="5:00 PM" type="button">5:00 PM</button>
+              </div>
+            </div>
+
+            <div class="appt-stylist-img"><img src="https://picsum.photos/260/340?random=70"
+                alt="Okirika personal stylist" loading="lazy" /></div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="gold-divider" />
+
+      <div class="inquiries-banner" aria-hidden="true"><img src="https://picsum.photos/1200/320?random=80" alt=""
+          class="inquiries-banner__img" loading="lazy" /></div>
+
+      <section class="inquiry-form-section" aria-labelledby="inq-heading">
+        <h2 id="inq-heading" class="section-heading">Send an Inquiry</h2>
+        <p class="text-cream" style="margin-bottom: var(--space-8);text-align: center;">Have a question about a product,
+          event, or
+          partnership? Fill in the form below.</p>
+
+        <div class="inquiry-form">
+          <div class="form-row form-row--2col">
+            <div class="form-group"><label for="inq-name" class="form-label">Name</label><input type="text"
+                id="inq-name" class="form-input" placeholder="Your full name" /></div>
+            <div class="form-group"><label for="inq-email" class="form-label">Email</label><input type="email"
+                id="inq-email" class="form-input" placeholder="you@example.com" /></div>
+          </div>
+
+          <div class="form-row form-row--2col">
+            <div class="form-group"><label for="inq-phone" class="form-label">Phone Number</label><input type="tel"
+                id="inq-phone" class="form-input" placeholder="+234 800 000 0000" /></div>
+            <div class="form-group"><label for="inq-reason" class="form-label">Reason</label><select id="inq-reason"
+                class="form-input form-select">
+                <option value="">Select a reason</option>
+                <option value="product">Product Inquiry</option>
+                <option value="event">Event Booking</option>
+                <option value="partnership">Partnership</option>
+                <option value="appointment">Appointment</option>
+                <option value="other">Other</option>
+              </select></div>
+          </div>
+
+          <div class="form-group"><label for="inq-message" class="form-label">Message</label><textarea id="inq-message"
+              class="form-input form-textarea" rows="6" placeholder="Tell us how we can help�"></textarea></div>
+          <div class="form-submit-row"><button type="button" class="btn btn--primary" id="inq-submit"
+              style="min-width: 180px;">Submit</button></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p class="nav__logo-script footer__logo-text">Okirika</p>
+        <p class="footer__tagline">Premium curated fashion. Timeless style.</p>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Navigate</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="board.html">Board of Trustees</a></li>
+          <li><a href="inquiries.html">Inquiries</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Contact</h3>
+        <p>hello@okirika.com</p>
+        <p>+234 800 000 0000</p>
+      </div>
+    </div>
+    <p class="footer__copy container">� <span id="footer-year"></span> Okirika Fashion Store. All rights reserved.</p>
+  </footer>
+
+  <script src="js/slider.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/inquiries.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Okirika Fashion Store</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/marquee.css" />
+  <link rel="stylesheet" href="css/slider.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/products.css" /> 
+  <link rel="icon" type="image/png" href="images/logo1.png">
+</head>
+
+<body>
+  <header class="site-nav" role="banner">
+    <div class="container nav__inner">
+
+      <a href="index.html" class="nav__logo" aria-label="Okirika Home">
+        <img src="images/logo1.png" alt="Okirika Logo" class="nav__logo-img" />
+        <div class="nav__logo-text">
+          <span class="nav__logo-script">Okirika</span>
+          <span class="nav__logo-sub">Fashion Store</span>
+        </div>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary navigation">
+        <ul role="list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="products.html" class="nav__link">Products</a></li>
+          <li><a href="events.html" class="nav__link">Events</a></li>
+          <li><a href="board.html" class="nav__link">Board of Trustees</a></li>
+          <li><a href="inquiries.html" class="nav__link">Inquiries &amp; Appointments</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <div class="home-marquee-banner" aria-label="Announcement banner">
+    <div class="marquee-inner">
+      <span>&#9733; New Season Arrivals</span>
+      <span>&#10022; Free Delivery Over &#8358;50,000</span>
+      <span>&#9733; Exclusive Members Discount</span>
+      <span>&#9733; New Season Arrivals</span>
+      <span>&#10022; Free Delivery Over &#8358;50,000</span>
+      <span>&#9733; Exclusive Members Discount</span>
+    </div>
+  </div>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container">
+
+        <div class="hero__content hero__content--center">
+
+          <h1 id="hero-heading" class="hero__heading">
+            Style That <br />
+            <span class="text-gold">Speaks For You</span>
+          </h1>
+
+          <p class="hero__sub">
+            Curated vintage & contemporary fashion pieces. Discover the Okirika collection.
+          </p>
+        </div>
+
+        <div class="hero__graphic">
+
+          <div class="hero__col hero__col--small">
+            <div class="hero__img-box clip-vertical">
+              <img src="https://picsum.photos/300/500?random=2" alt="" />
+            </div>
+            <div class="hero__img-box tiny">
+              <img src="https://picsum.photos/300/400?random=3" alt="" />
+            </div>
+          </div>
+          <div class="hero__col hero__col--medium">
+            <div class="hero__img-box">
+              <img src="https://picsum.photos/300/500?random=2" alt="" />
+            </div>
+          </div>
+          <div class="hero__col hero__col--center">
+            <div class="hero__img-box-main">
+              <img src="https://picsum.photos/300/420?random=1" alt="Fashion model wearing Okirika curated outfit" />
+            </div>
+            <a href="products.html" class="btn btn--primary hero__explore">Explore</a>
+          </div>
+          <div class="hero__col hero__col--medium">
+            <div class="hero__img-box">
+              <img src="https://picsum.photos/300/500?random=2" alt="" />
+            </div>
+          </div>
+          <div class="hero__col hero__col--small">
+            <div class="hero__img-box clip-vertical">
+              <img src="https://picsum.photos/300/500?random=4" alt="" />
+            </div>
+            <div class="hero__img-box tiny">
+              <img src="https://picsum.photos/300/400?random=5" alt="" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-products" aria-labelledby="featured-heading">
+      <div class="container">
+
+        <div class="featured-products__top">
+          <div class="featured-products__heading-wrap">
+            <h2 id="featured-heading" class="featured-products__heading">Featured Products</h2>
+            <span class="featured-products__meta">Carefully curated for you</span>
+          </div>
+
+          <div class="featured-products__tabs" role="tablist">
+            <button class="featured-products__tab active" data-filter="new-arrivals">New Arrivals</button>
+            <button class="featured-products__tab" data-filter="sale">Sale</button>
+            <button class="featured-products__tab" data-filter="men">Men</button>
+            <button class="featured-products__tab" data-filter="all">All</button>
+            <button class="featured-products__tab" data-filter="women">Women</button>
+            <button class="featured-products__tab" data-filter="children">Children</button>
+          </div>
+        </div>
+
+        <div class="featured-products__grid" id="featured-track"></div>
+
+      </div>
+    </section>
+
+    <section class="about-section" aria-labelledby="about-heading">
+      <div class="container about__grid">
+        <div class="about__text">
+          <p class="about__eyebrow text-gold">Who We Are</p>
+          <h2 id="about-heading" class="section-heading">About Okirika</h2>
+          <p class="about__body text-cream">Okirika Fashion Store brings you the finest curated vintage and contemporary
+            pieces. Founded with a passion for authentic style, we source unique garments that tell a story.</p>
+          <p class="about__body text-cream" style="margin-top: 1rem;">Every piece in our collection is hand-selected for
+            quality, character, and timeless appeal.</p>
+          <a href="inquiries.html" class="btn btn--outline" style="margin-top: 2rem;">Book an Appointment</a>
+        </div>
+
+        <div class="about__graphic">
+          <img src="https://picsum.photos/560/480?random=20" alt="Inside the Okirika store" class="about__img"
+            loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <div class="trainline-marquee" aria-hidden="true">
+      <div class="trainline-track">
+        <span>STYLE</span><span class="trainline-dot">&#10022;</span>
+        <span>QUALITY</span><span class="trainline-dot">&#10022;</span>
+        <span>HERITAGE</span><span class="trainline-dot">&#10022;</span>
+        <span>CULTURE</span><span class="trainline-dot">&#10022;</span>
+        <span>STYLE</span><span class="trainline-dot">&#10022;</span>
+        <span>QUALITY</span><span class="trainline-dot">&#10022;</span>
+        <span>HERITAGE</span><span class="trainline-dot">&#10022;</span>
+        <span>CULTURE</span><span class="trainline-dot">&#10022;</span>
+      </div>
+    </div>
+
+    <section class="feature-grid-section" aria-label="Feature highlights">
+      <div class="container feature-grid">
+
+        <article class="feature-card feature-card--large">
+          <div class="feature-card__media">
+            <img src="https://picsum.photos/900/700?random=30" alt="Curated Collections" loading="lazy" />
+          </div>
+          <div class="feature-card__content">
+            <h3 class="feature-card__title">Curated Collections</h3>
+            <p class="feature-card__text">
+              Hand-picked pieces from around the world, brought together in a single curated experience.
+            </p>
+            <a href="products.html" class="btn btn--outline">Shop Now</a>
+          </div>
+        </article>
+
+        <div class="feature-grid__right">
+
+          <article class="feature-card feature-card--horizontal">
+            <div class="feature-card__content">
+              <h3 class="feature-card__title">Exclusive Events</h3>
+              <p class="feature-card__text">
+                Join us for private fashion shows, trunk sales, and styling workshops.
+              </p>
+            </div>
+            <div class="feature-card__media">
+              <img src="https://picsum.photos/600/400?random=31" alt="Exclusive Events" loading="lazy" />
+            </div>
+          </article>
+
+          <article class="feature-card feature-card--horizontal">
+            <div class="feature-card__content">
+              <h3 class="feature-card__title">Personal Styling</h3>
+              <p class="feature-card__text">
+                Work one-on-one with our stylists to craft looks tailored just for you.
+              </p>
+            </div>
+            <div class="feature-card__media">
+              <img src="https://picsum.photos/600/400?random=32" alt="Personal Styling" loading="lazy" />
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p class="nav__logo-script footer__logo-text">Okirika</p>
+        <p class="footer__tagline">Premium curated fashion. Timeless style.</p>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__heading">Navigate</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="board.html">Board of Trustees</a></li>
+          <li><a href="inquiries.html">Inquiries</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h3 class="footer__heading">Contact</h3>
+        <p>hello@okirika.com</p>
+        <p>+234 800 000 0000</p>
+      </div>
+    </div>
+
+    <p class="footer__copy container">� <span id="footer-year"></span> Okirika Fashion Store. All rights reserved.</p>
+  </footer>
+
+  <script src="js/slider.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/products.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

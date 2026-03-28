@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products | Okirika Fashion Store</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/tokens.css" />
+  <link rel="stylesheet" href="css/global.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+  <link rel="stylesheet" href="css/footer.css" />
+  <link rel="stylesheet" href="css/marquee.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/slider.css" />
+  <link rel="stylesheet" href="css/products.css" />
+  <link rel="icon" type="image/png" href="images/logo1.png">
+</head>
+
+<body>
+  <header class="site-nav" role="banner">
+    <div class="container nav__inner">
+
+      <a href="index.html" class="nav__logo" aria-label="Okirika Home">
+        <img src="images/logo1.png" alt="Okirika Logo" class="nav__logo-img" />
+        <div class="nav__logo-text">
+          <span class="nav__logo-script">Okirika</span>
+          <span class="nav__logo-sub">Fashion Store</span>
+        </div>
+      </a>
+
+      <nav class="nav__links" aria-label="Primary navigation">
+        <ul role="list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="products.html" class="nav__link">Products</a></li>
+          <li><a href="events.html" class="nav__link">Events</a></li>
+          <li><a href="board.html" class="nav__link">Board of Trustees</a></li>
+          <li><a href="inquiries.html" class="nav__link">Inquiries &amp; Appointments</a></li>
+        </ul>
+      </nav>
+
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <div class="home-marquee-banner" aria-label="Announcement banner">
+    <div class="marquee-inner">
+      <span>&#9733; New Season Arrivals</span>
+      <span>&#10022; Free Delivery Over &#8358;50,000</span>
+      <span>&#9733; Exclusive Members Discount</span>
+      <span>&#9733; New Season Arrivals</span>
+      <span>&#10022; Free Delivery Over &#8358;50,000</span>
+      <span>&#9733; Exclusive Members Discount</span>
+    </div>
+  </div>
+  <main class="products-page">
+    <div class="container products-layout">
+      <aside class="products-sidebar" aria-label="Filter products">
+        <div class="filter-group">
+          <label for="product-search" class="sr-only">Search products</label>
+          <div class="search-input-wrap">
+            <span class="search-icon" aria-hidden="true"><img src="images/icons/search.svg" alt="" /></span>
+            <input type="search" id="product-search" placeholder="Search" class="filter-search" />
+          </div>
+        </div>
+
+        <div class="filter-group">
+          <h2 class="filter-heading">Categories</h2>
+          <ul class="filter-list" role="list">
+            <li><button class="filter-chip active" data-category="all" type="button">All</button></li>
+            <li><button class="filter-chip" data-category="new-arrivals" type="button">New Arrivals</button></li>
+            <li><button class="filter-chip" data-category="sale" type="button">Sale</button></li>
+            <li><button class="filter-chip" data-category="men" type="button">Men</button></li>
+            <li><button class="filter-chip" data-category="women" type="button">Women</button></li>
+            <li><button class="filter-chip" data-category="children" type="button">Children</button></li>
+          </ul>
+        </div>
+
+        <div class="filter-group">
+          <h2 class="filter-heading">Pricing</h2>
+          <div class="price-range">
+            <input type="range" id="price-max" min="0" max="200000" step="500" value="200000" class="price-slider" />
+            <div class="price-labels">
+              <span>&#8358;0</span>
+              <span id="price-display">&#8358;200,000</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-actions">
+          <button class="btn btn--outline filter-apply" type="button">Apply</button>
+          <button class="btn btn--dark filter-clear" type="button">Clear</button>
+        </div>
+      </aside>
+
+      <section aria-label="Product listings">
+        <div id="products-grid" class="products-grid"></div>
+
+        <div class="load-more-wrap">
+          <button id="load-more-btn" class="btn btn--primary load-more-btn" type="button">
+            Load More
+          </button>
+
+          <div id="load-more-loader" class="loader-6" style="display:none;"></div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <p class="nav__logo-script footer__logo-text">Okirika</p>
+        <p class="footer__tagline">Premium curated fashion. Timeless style.</p>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Navigate</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="board.html">Board of Trustees</a></li>
+          <li><a href="inquiries.html">Inquiries</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h3 class="footer__heading">Contact</h3>
+        <p>hello@okirika.com</p>
+        <p>+234 800 000 0000</p>
+      </div>
+    </div>
+    <p class="footer__copy container">� <span id="footer-year"></span> Okirika Fashion Store. All rights reserved.</p>
+  </footer>
+
+  <script src="js/slider.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/products.js"></script>
+  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+</body>
+
+</html>

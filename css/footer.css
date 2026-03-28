@@ -1,0 +1,68 @@
+.site-footer {
+  background: var(--bg-surface);
+  border-top: 1px solid var(--color-gold-dark);
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: var(--space-12);
+  padding-block: var(--space-16);
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.footer__logo-img {
+  width: 140px;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.footer__tagline {
+  color: var(--color-cream);
+  font-size: var(--text-sm);
+  max-width: 280px;
+}
+
+.footer__heading {
+  font-family: var(--font-heading);
+  font-size: var(--text-sm);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-gold-mid);
+  margin-bottom: var(--space-4);
+}
+
+.footer__col ul {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.footer__col a {
+  color: var(--color-cream);
+  font-size: var(--text-sm);
+  transition: color var(--transition-fast);
+}
+
+.footer__col a:hover {
+  color: var(--color-gold-mid);
+}
+
+.footer__col p {
+  color: var(--color-cream);
+  font-size: var(--text-sm);
+  line-height: 1.8;
+}
+
+.footer__copy {
+  text-align: center;
+  color: var(--color-gold-dark);
+  font-size: var(--text-xs);
+  padding-block: var(--space-4);
+  border-top: 1px solid rgba(201, 168, 76, 0.2);
+}
